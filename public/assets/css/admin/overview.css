@@ -1,0 +1,101 @@
+.p-overview-title{
+    color: #686868;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.div-overview-title{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #00000020;
+    height: 47.5px;
+}
+/*Biểu đồ Thống kê */
+.div-chart-revenue{
+    height: 400px;
+}
+/* end biểu đồ */
+
+/* đơn hàng hiện tại */
+.div-order-now .div-order-now-content .div-order-now-content-item{
+    margin-top: 13px;
+}
+.div-order-now .div-order-now-content .div-order-now-content-item .col-12{
+    border: 1px solid #00000020;
+    border-radius: 3px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.div-order-now .div-order-now-content .div-order-now-content-item p{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0;
+    color: black;
+}
+.div-order-now .div-order-now-content .div-order-now-content-item p span{
+    color: #0089ff;
+    font-weight: 600;
+}
+.div-order-now .div-order-now-content .div-order-now-content-item span{
+    width: 21px;
+}
+.div-order-now .div-order-now-content .div-order-now-content-item .icon{
+    display: none;
+}
+.div-order-now .div-order-now-content .div-order-now-content-item .col-12:hover{
+    transition: 0.3s;
+    border-color: #0089ff;
+    background-color: #d4d4d420;
+}
+.div-order-now .div-order-now-content .div-order-now-content-item .col-12:hover .icon{
+    display: block;
+}
+/* end đơn hàng hiện tại */
+
+
+/* word block */
+.div-word-block {
+    height: 560px;
+}
+/* end word block */
+
+
+
+
+/* responsive */
+@media (max-width: 1199.98px){
+    .div-info-warehoese{
+        margin-top: 15px;
+    }
+}
+
+@media (min-width: 992px){
+    
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+    
+}
+
+@media (max-width: 991.98px){
+    .div-order-now .div-order-now-content{
+        padding-bottom: 13px;
+    }
+    .div-order-now .div-order-now-content .div-order-now-content-item span{
+        width: 0;
+    }
+}
+
+@media (max-width: 767.98px){
+    
+}
+
+@media (max-width: 575.98px){
+    
+}
+
+@media (max-width: 375.98px){
+    .p-overview-title{
+        font-size: 14px;
+    }
+}

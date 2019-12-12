@@ -1,0 +1,75 @@
+#sec-content-find {
+    padding-top: 65px;
+}
+
+#sec-content-find .container {
+    min-height: calc(100vh - 130px);
+}
+#modal-post-detail .div-list-comment{
+    height: 250px;
+    overflow: auto;
+}
+#modal-post-detail .div-input-comment #txtCommnent{
+    height: 35px;
+    width: 85%;
+    margin: 0 10px;
+    border-radius: 25px;
+    border: 1px solid #17a2b8;
+    outline: none;
+    padding: 0 10px;
+    font-size: 14px;
+}
+#modal-post-detail .div-input-comment .icon {
+    color: #17a2b8;
+    font-size: 18px;
+}
+
+
+
+
+
+
+/* responsive */
+@media (max-width: 1199.98px) {}
+
+@media (min-width: 992px) {
+    #sec-content-find .card-columns {
+        -webkit-column-count:3!important;
+        column-count:3!important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {}
+
+@media (max-width: 991.98px) {
+    
+}
+
+@media (min-width: 768px) {
+    #sec-content-find .card-columns {
+        -webkit-column-count:2;
+        column-count:2;
+    }
+}
+
+@media (max-width: 767.98px) {
+    #sec-content-find .container .row.mt-5 .col-md-6:first-child {
+        display: none;
+    }
+    #sec-content-find .card-columns {
+        -webkit-column-count:1;
+        column-count:1;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+@media (max-width: 575.98px) {
+    #sec-content-find {
+        padding-top: 60px;
+    }
+}
+
+@media (max-width: 369px) {
+    
+}

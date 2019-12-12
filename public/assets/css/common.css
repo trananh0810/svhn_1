@@ -1,0 +1,133 @@
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #34495E;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+html {
+    font-size: 100%;
+}
+body{
+    background-color: #e8e8e8;
+}
+a:hover {
+    text-decoration: none;
+}
+.btn, .icon {
+    cursor: pointer;
+}
+.btn-custom {
+    border-radius: 25px;
+}
+p {
+    font-size: 0.9rem;
+}
+.btn-group.btn-group-toggle>.btn.active{
+    color: white!important;
+}
+.modal-header{
+    background-color: #34495E;
+}
+/* Header */
+#sec-header{
+    background-color: #34495E;
+    z-index: 16;
+}
+#img-header-logo{
+    height: 55px;
+}
+/* End Header */
+
+/* Like fb */
+
+/* End like fb */
+
+/* Footer */
+#sec-footer{
+    background-color: #34495E;
+}
+#sec-footer .container{
+    height: 65px;
+}
+/* End footer */
+
+
+
+
+
+
+
+
+
+
+/* responsive */
+@media (max-width: 1199.98px) {
+    * {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+@media (max-width: 991.98px) {
+    #sec-footer .container{
+        height: 45px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    * {
+        font-size: 0.9rem;
+    }
+    .btn{
+        font-size: 0.9rem!important;
+    }
+    .title-1 {
+        font-size: 1.5rem!important;
+    }
+}  
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+}
+
+
+
+@media (max-width: 575.98px) {
+    * {
+        font-size: 0.8rem;
+    }
+    .btn{
+        font-size: 0.8rem!important;
+    }
+    #img-header-logo{
+        height: 35px;
+    }
+    .title-1 {
+        font-size: 1.3rem!important;
+    }
+}
+
+@media (max-width: 369px) {
+    
+}
